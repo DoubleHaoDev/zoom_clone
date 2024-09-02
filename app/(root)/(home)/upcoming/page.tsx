@@ -9,7 +9,6 @@ const Upcoming = () => {
             </h1>
             <CallList
                 type="upcoming"
-
             />
         </section>
     );
