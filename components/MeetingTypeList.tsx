@@ -111,7 +111,7 @@ const MeetingTypeList = () => {
                         <Textarea
                             className="border-none bg-dark-3 focus-visible:ring-0 focus-visible:ring-offset-0"
                             onChange={(e)=> {
-                                setValues({...values, description: e.target.type});
+                                setValues({...values, description: e.target.value});
                             }}
                         />
                     </div>
